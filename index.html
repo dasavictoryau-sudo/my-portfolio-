@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Victory | Professional Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        
+        body { 
+            background-color: #f8fafc; 
+            color: #1e293b; 
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #ffffff;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo { font-weight: 800; font-size: 1.2rem; color: #3b82f6; }
+
+        /* Hero Section */
+        header {
+            padding: 80px 10%;
+            text-align: center;
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 10px; color: #0f172a; }
+        .subtitle { color: #64748b; font-size: 1.1rem; margin-bottom: 25px; }
+
+        /* Content Section */
+        .content { padding: 50px 10%; max-width: 900px; margin: 0 auto; }
+        
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            border-left: 5px solid #3b82f6;
+        }
+
+        h2 { margin-bottom: 15px; font-size: 1.5rem; }
+
+        /* Button Style */
+        .cta-container { text-align: center; margin-top: 40px; }
+        
+        .btn-main {
+            text-decoration: none;
+            background: #3b82f6;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-main:hover {
+            background: #2563eb;
+            transform: scale(1.05);
+        }
+
+        footer { text-align: center; padding: 40px; color: #94a3b8; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">DV.PORTFOLIO</div>
+    </nav>
+
+    <header>
+        <h1>Daniel Saad Victory</h1>
+        <p class="subtitle">Welcome to my Professional Web Portfolio</p>
+        <div class="cta-container">
+            <a href="portfolio.pdf" class="btn-main">Download My Full CV / Portfolio</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="card">
+            <h2>About This Project</h2>
+            <p>This website is part of my final project for Human-Computer Interaction (HCI1). It showcases my ability to host a live web application using GitHub Pages and integrate professional documentation.</p>
+        </div>
+
+        <div class="card">
+            <h2>Skills & Expertise</h2>
+            <p>Student at South7 • Aspiring Tech Professional • Digital Portfolio Design</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Daniel Saad Victory | HCI1 Final Project
+    </footer>
+
+</body>
+</html>
